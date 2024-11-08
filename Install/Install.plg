@@ -1,0 +1,57 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Install - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/Install.res" /d "NDEBUG" "D:\Snips8.00\Install\Install.rc"" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP5675.tmp" with contents
+[
+/nologo /ML /GX /Zi /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fp"Release/Install.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Snips8.00\Install\Install.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP5675.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP5676.tmp" with contents
+[
+/nologo /ML /GX /Zi /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fp"Release/Install.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Snips8.00\Install\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP5676.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP5677.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/Install.pdb" /machine:I386 /out:"../Bin/Cache/Install.dat" 
+.\Release\Install.obj
+.\Release\StdAfx.obj
+.\Release\Install.res
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP5677.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Install.cpp
+Linking...
+LINK : warning LNK4199: /DELAYLOAD:WININET.dll ignored; no imports found from WININET.dll
+LINK : warning LNK4199: /DELAYLOAD:WS2_32.dll ignored; no imports found from WS2_32.dll
+LINK : warning LNK4199: /DELAYLOAD:PSAPI.DLL ignored; no imports found from PSAPI.DLL
+LINK : warning LNK4199: /DELAYLOAD:GDI32.dll ignored; no imports found from GDI32.dll
+LINK : warning LNK4199: /DELAYLOAD:ADVAPI32.dll ignored; no imports found from ADVAPI32.dll
+LINK : warning LNK4199: /DELAYLOAD:SHELL32.dll ignored; no imports found from SHELL32.dll
+LINK : warning LNK4199: /DELAYLOAD:WINMM.dll ignored; no imports found from WINMM.dll
+LINK : warning LNK4199: /DELAYLOAD:USER32.dll ignored; no imports found from USER32.dll
+LINK : warning LNK4199: /DELAYLOAD:WTSAPI32.dll ignored; no imports found from WTSAPI32.dll
+LINK : warning LNK4199: /DELAYLOAD:AVICAP32.dll ignored; no imports found from AVICAP32.dll
+LINK : warning LNK4199: /DELAYLOAD:SHLWAPI.dll ignored; no imports found from SHLWAPI.dll
+LINK : warning LNK4078: multiple ".data" sections found with different attributes (40000040)
+LINK : warning LNK4078: multiple ".data" sections found with different attributes (60000020)
+
+
+
+<h3>Results</h3>
+Install.dat - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

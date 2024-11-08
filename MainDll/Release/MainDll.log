@@ -1,0 +1,16 @@
+﻿  StdAfx.cpp
+  Buffer.cpp
+  ClientSocket.cpp
+c:\users\blank\desktop\1.1修复win7屏幕复活\内存加载\maindll\clientsocket.cpp(360): error C2065: “i”: 未声明的标识符
+c:\users\blank\desktop\1.1修复win7屏幕复活\内存加载\maindll\clientsocket.cpp(378): error C2065: “i”: 未声明的标识符
+  KernelManager.cpp
+c:\users\blank\desktop\1.1修复win7屏幕复活\内存加载\maindll\loop.h(267): error C2440: “初始化”: 无法从“const char *”转换为“char *”
+  c:\users\blank\desktop\1.1修复win7屏幕复活\内存加载\maindll\loop.h(267): note: 转换丢失限定符
+c:\users\blank\desktop\1.1修复win7屏幕复活\内存加载\maindll\loop.h(505): error C2440: “=”: 无法从“const char *”转换为“char *”
+  c:\users\blank\desktop\1.1修复win7屏幕复活\内存加载\maindll\loop.h(505): note: 转换丢失限定符
+  MainDll.cpp
+  Manager.cpp
+  MemoryModule.cpp
+  MyFunc.cpp
+  until.cpp
+  正在生成代码...

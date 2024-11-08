@@ -1,0 +1,55 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SYSTEM - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPB9EE.tmp" with contents
+[
+/nologo /MD /w /W0 /GX /O2 /I "..\\" /I "..\..\common" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "SYSTEM_EXPORTS" /D _WIN32_WINNT=0x0500 /D "_WINDLL" /D "_AFXDLL" /Fp"Release/SYSTEM.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Users\Administrator\Desktop\新8.00 通讯新型加密1\8.00 通讯新型加密1\Snips8.00\DLL\Pluginss\Buffer.cpp"
+"C:\Users\Administrator\Desktop\新8.00 通讯新型加密1\8.00 通讯新型加密1\Snips8.00\DLL\Pluginss\ClientSocket.cpp"
+"C:\Users\Administrator\Desktop\新8.00 通讯新型加密1\8.00 通讯新型加密1\Snips8.00\DLL\Pluginss\SYSTEM\Dialupass.cpp"
+"C:\Users\Administrator\Desktop\新8.00 通讯新型加密1\8.00 通讯新型加密1\Snips8.00\DLL\Pluginss\SYSTEM\GetNetState.cpp"
+"C:\Users\Administrator\Desktop\新8.00 通讯新型加密1\8.00 通讯新型加密1\Snips8.00\DLL\Pluginss\Manager.cpp"
+"C:\Users\Administrator\Desktop\新8.00 通讯新型加密1\8.00 通讯新型加密1\Snips8.00\DLL\Pluginss\SYSTEM\SYSTEM.CPP"
+"C:\Users\Administrator\Desktop\新8.00 通讯新型加密1\8.00 通讯新型加密1\Snips8.00\DLL\Pluginss\SYSTEM\SystemManager.cpp"
+"C:\Users\Administrator\Desktop\新8.00 通讯新型加密1\8.00 通讯新型加密1\Snips8.00\DLL\Pluginss\until.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPB9EE.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPB9FF.tmp" with contents
+[
+/nologo /dll /incremental:no /pdb:"Release/SYSTEM.pdb" /machine:I386 /out:"..\..\Plugins\SYSTEM.dll" /implib:"Release/SYSTEM.lib" 
+".\Release\Buffer.obj"
+".\Release\ClientSocket.obj"
+".\Release\Dialupass.obj"
+".\Release\GetNetState.obj"
+".\Release\Manager.obj"
+".\Release\SYSTEM.OBJ"
+".\Release\SystemManager.obj"
+".\Release\until.obj"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPB9FF.tmp"
+<h3>Output Window</h3>
+Compiling...
+Buffer.cpp
+ClientSocket.cpp
+Dialupass.cpp
+GetNetState.cpp
+Manager.cpp
+SYSTEM.CPP
+SystemManager.cpp
+until.cpp
+Linking...
+   Creating library Release/SYSTEM.lib and object Release/SYSTEM.exp
+LINK : warning LNK4089: all references to "USERENV.dll" discarded by /OPT:REF
+
+
+
+<h3>Results</h3>
+SYSTEM.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

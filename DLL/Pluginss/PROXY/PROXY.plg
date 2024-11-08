@@ -1,0 +1,28 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: PROXY - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP6219.tmp" with contents
+[
+/nologo /MD /w /W0 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "PROXY_EXPORTS" /D "_AFXDLL" /Fp"Release/PROXY.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Users\Administrator\Desktop\新8.00 通讯新型加密1\8.00 通讯新型加密1\Snips8.00\DLL\Pluginss\PROXY\PROXY.CPP"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP6219.tmp" 
+Creating command line "link.exe /nologo /dll /incremental:no /pdb:"Release/PROXY.pdb" /machine:I386 /out:"..\..\Plugins\PROXY.dll" /implib:"Release/PROXY.lib"  ".\Release\PROXY.OBJ" "
+<h3>Output Window</h3>
+Compiling...
+PROXY.CPP
+Linking...
+   Creating library Release/PROXY.lib and object Release/PROXY.exp
+
+
+
+<h3>Results</h3>
+PROXY.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

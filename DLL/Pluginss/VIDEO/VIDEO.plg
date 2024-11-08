@@ -1,0 +1,57 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: VIDEO - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPC51B.tmp" with contents
+[
+/nologo /MD /w /W0 /GX /O2 /I "..\\" /I "..\..\common" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "VIDEO_EXPORTS" /D "STRSAFE_NO_DEPRECATE" /D "_AFXDLL" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Users\Administrator\Desktop\新8.00 通讯新型加密1\8.00 通讯新型加密1\Snips8.00\DLL\Pluginss\Buffer.cpp"
+"C:\Users\Administrator\Desktop\新8.00 通讯新型加密1\8.00 通讯新型加密1\Snips8.00\DLL\Pluginss\VIDEO\CaptureVideo.cpp"
+"C:\Users\Administrator\Desktop\新8.00 通讯新型加密1\8.00 通讯新型加密1\Snips8.00\DLL\Pluginss\ClientSocket.cpp"
+"C:\Users\Administrator\Desktop\新8.00 通讯新型加密1\8.00 通讯新型加密1\Snips8.00\DLL\Pluginss\Manager.cpp"
+"C:\Users\Administrator\Desktop\新8.00 通讯新型加密1\8.00 通讯新型加密1\Snips8.00\DLL\Pluginss\until.cpp"
+"C:\Users\Administrator\Desktop\新8.00 通讯新型加密1\8.00 通讯新型加密1\Snips8.00\DLL\Pluginss\VIDEO\VIDEO.CPP"
+"C:\Users\Administrator\Desktop\新8.00 通讯新型加密1\8.00 通讯新型加密1\Snips8.00\DLL\Pluginss\VIDEO\VideoManager.cpp"
+"C:\Users\Administrator\Desktop\新8.00 通讯新型加密1\8.00 通讯新型加密1\Snips8.00\DLL\Pluginss\VIDEO\XvidEnc.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPC51B.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPC51C.tmp" with contents
+[
+..\..\..\common\libxvidcore.lib /nologo /dll /incremental:no /pdb:"Release/VIDEO.pdb" /machine:I386 /nodefaultlib:"libc.lib" /out:"..\..\Plugins\VIDEO.dll" /implib:"Release/VIDEO.lib" 
+".\Release\Buffer.obj"
+".\Release\CaptureVideo.obj"
+".\Release\ClientSocket.obj"
+".\Release\Manager.obj"
+".\Release\until.obj"
+".\Release\VIDEO.OBJ"
+".\Release\VideoManager.obj"
+".\Release\XvidEnc.obj"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPC51C.tmp"
+<h3>Output Window</h3>
+Compiling...
+Buffer.cpp
+CaptureVideo.cpp
+ClientSocket.cpp
+Manager.cpp
+until.cpp
+VIDEO.CPP
+VideoManager.cpp
+XvidEnc.cpp
+Generating Code...
+Linking...
+   Creating library Release/VIDEO.lib and object Release/VIDEO.exp
+LINK : warning LNK4089: all references to "SHELL32.dll" discarded by /OPT:REF
+LINK : warning LNK4089: all references to "USER32.dll" discarded by /OPT:REF
+
+
+
+<h3>Results</h3>
+VIDEO.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

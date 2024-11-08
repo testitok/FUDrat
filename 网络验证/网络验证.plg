@@ -1,0 +1,53 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 网络验证 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/网络验证.res" /d "NDEBUG" "C:\Users\Administrator\Desktop\新8.00 通讯新型加密1\8.00 通讯新型加密1\Snips8.00\网络验证\网络验证.rc"" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP5E82.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/网络验证.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Users\Administrator\Desktop\新8.00 通讯新型加密1\8.00 通讯新型加密1\Snips8.00\网络验证\IniFile.cpp"
+"C:\Users\Administrator\Desktop\新8.00 通讯新型加密1\8.00 通讯新型加密1\Snips8.00\网络验证\网络验证.cpp"
+"C:\Users\Administrator\Desktop\新8.00 通讯新型加密1\8.00 通讯新型加密1\Snips8.00\网络验证\网络验证Dlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP5E82.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP5E83.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/网络验证.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Users\Administrator\Desktop\新8.00 通讯新型加密1\8.00 通讯新型加密1\Snips8.00\网络验证\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP5E83.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP5E84.tmp" with contents
+[
+ws2_32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/网络验证.pdb" /machine:I386 /out:"../Bin/网络验证.exe" 
+".\Release\IniFile.obj"
+".\Release\StdAfx.obj"
+".\Release\网络验证.obj"
+".\Release\网络验证Dlg.obj"
+".\Release\网络验证.res"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP5E84.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+IniFile.cpp
+网络验证.cpp
+网络验证Dlg.cpp
+Generating Code...
+Linking...
+LINK : warning LNK4089: all references to "SHELL32.dll" discarded by /OPT:REF
+LINK : warning LNK4089: all references to "comdlg32.dll" discarded by /OPT:REF
+
+
+
+<h3>Results</h3>
+网络验证.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

